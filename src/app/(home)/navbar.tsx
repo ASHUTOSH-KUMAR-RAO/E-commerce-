@@ -55,7 +55,7 @@ const navbarItems = [
 export const Navbar = () => {
   const pathName = usePathname();
 
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 h-20 flex items-center justify-between px-6 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
