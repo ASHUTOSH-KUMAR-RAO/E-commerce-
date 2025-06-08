@@ -1,18 +1,6 @@
-import configPromise from "@payload-config";
-import { getPayload } from "payload";
-
-const page = async () => {
-  const payload = await getPayload({
-    config: configPromise,
-  });
-
-  const data = await payload.find({
-    collection: "users",
-  });
-
+const page =  () => {
   return <div>
-
-    {JSON.stringify(data,null,2)}
+    Home Page
   </div>;
 };
 

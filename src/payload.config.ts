@@ -7,10 +7,10 @@ import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
+// Collections import - sab consistent banaya
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 import { Categorise } from './collections/Categorise'
-
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
